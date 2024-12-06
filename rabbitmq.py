@@ -49,4 +49,3 @@ class Publisher:
         if self._conn and self._conn.is_open:
             self._logger.info('closing queue connection')
             self._conn.close()
-
